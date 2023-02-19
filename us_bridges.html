@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Leaflet script and CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+
+    <!-- Our stylesheet. Make sure the size of the map div is set before trying to draw the map.-->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <!-- Our script, uses Leaflet to draw the maps and map components for this page  -->
+    <script async defer src="./js/bridges.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <script async defer src="./js/chart.js"></script>
+    <!-- <script async defer src="chart.js"></script> -->
+    <!-- <script async defer src="chart.js"></script> -->
+
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Longest US Bridges Map</title>
+  </head>
+  <body class="p-5">
+    <!-- Beginning of HTML code for bridge map -->
+    <h1>Map of the longest bridges in the United States</h1>
+    <div id="us-bridge-map"></div>
+
+    <!-- Ending of HTML code for bridge map -->
+
+    <!-- Beginning of HTML code for BAR CHART -->
+    <h1 class="text-center">Longest US Bridges Chart</h1>
+
+    <canvas id="bridge-bar-chart"></canvas>
+
+
+
+     <!-- Ending of HTML code for BAR CHART -->
+  </body>
+</html>
